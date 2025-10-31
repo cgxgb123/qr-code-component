@@ -5,9 +5,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -21,10 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/cgxgb123/qr-code-component)
-- Live Site URL: [Add live site URL here](https://cgxgb123.github.io/qr-code-component/)
-
-## My process
+- Solution URL: (https://github.com/cgxgb123/qr-code-component)
+- Live Site URL: (https://cgxgb123.github.io/qr-code-component/)
 
 ### Built with
 
@@ -32,21 +28,20 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
+- [Node.js](https://nodejs.org/en) - Java Runtime Environment
 - [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
+It was difficult to get the body and card to be styled in the same way seen in the example.
+
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+[Flexbox Froggy](https://flexboxfroggy.com/)
 
-*
+^ This was extremely helpful!
+
+-
 
 ## Author
 
