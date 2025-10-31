@@ -8,7 +8,7 @@
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: white;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
   border-radius: 1.25rem;
   padding: 1rem;
