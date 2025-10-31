@@ -1,6 +1,7 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 1rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -9,6 +10,11 @@
 .card {
   background-color: hsl(0, 0%, 100%);
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 1.25rem;
+  padding: 1rem;
+  max-width: 18rem;
+  margin: 2rem;
+  border: 0.5rem solid hsl(212, 45%, 89%);
 }
 
 img {
