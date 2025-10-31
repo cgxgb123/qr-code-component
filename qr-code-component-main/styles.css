@@ -9,12 +9,11 @@
 
 .card {
   background-color: white;
-  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: -10px 5px 5px rgba(0, 0, 0, 0.1);
   border-radius: 1.25rem;
   padding: 1rem;
   max-width: 18rem;
   margin: 2rem;
-  border: 0.5rem solid hsl(212, 45%, 89%);
 }
 
 img {
@@ -25,7 +24,7 @@ img {
 }
 
 body {
-  background-color: white;
+  background-color: hsl(212, 45%, 89%);
   font-size: 15px;
   display: flex;
   flex-direction: column;
