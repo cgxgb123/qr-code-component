@@ -1,10 +1,7 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  margin-top: 1rem;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
 }
 
 .card {
@@ -12,41 +9,41 @@
   border-radius: 1.25rem;
   padding: 1rem;
   max-width: 18rem;
-  margin: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 25px 30px rgba(0, 0, 0, 0.15);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 45px 60px rgba(0, 0, 0, 0.35);
 }
 
-.card img {
+.card-img-top {
   width: 100%;
   border-radius: 0.75rem;
   margin-bottom: 1.25rem;
-}
-
-body {
-  background-color: hsl(212, 45%, 89%);
-  font-size: 15px;
-  margin: 0;
-  font-family: "Outfit", sans-serif;
 }
 
 h1 {
   font-size: 1.5rem;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
-  text-align: center;
 }
 
 p {
   font-size: 1rem;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
-  text-align: center;
 }
 
+.attribution {
+  font-size: 11px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Responsive scaling via media queries */
 @media (min-width: 600px) {
   .card {
     max-width: 22rem;
