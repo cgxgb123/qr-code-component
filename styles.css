@@ -1,19 +1,8 @@
 body {
-  background-color: hsl(212, 45%, 89%);
-  font-family: "Outfit", sans-serif;
-  font-size: 15px;
-}
-
-.card {
-  background-color: white;
-  border-radius: 1.25rem;
-  padding: 1rem;
-  max-width: 18rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-8px) scale(1.02);
+  transform: translateY(-8px);
   box-shadow: 0 45px 60px rgba(0, 0, 0, 0.35);
 }
 
@@ -33,14 +22,6 @@ p {
   font-size: 1rem;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
-}
-
-.attribution {
-  font-size: 11px;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
 
 /* Responsive scaling via media queries */
